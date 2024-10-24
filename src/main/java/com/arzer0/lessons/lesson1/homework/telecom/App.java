@@ -7,6 +7,12 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
+/*
+Система Телефонная станция. Абонент оплачивает Счет за разговоры и Услуги,
+может попросить Администратора сменить номер и отказаться от услуг. Администратор
+изменяет номер, Услуги и временно отключает Абонента за неуплату.
+*/
+
 public class App {
     public static void main(String[] args) {
         List<Subscriber> subscribers = Arrays.asList(

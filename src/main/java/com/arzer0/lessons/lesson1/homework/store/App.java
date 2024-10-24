@@ -7,6 +7,11 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
+/*
+Система Интернет-магазин. Администратор добавляет информацию о Товаре. Клиент делает и оплачивает Заказ на Товары.
+Администратор регистрирует Продажу и может занести неплательщиков в “черный список”.
+*/
+
 public class App {
     public static void main(String[] args) {
         List<Admin> admins = Arrays.asList(
