@@ -7,6 +7,12 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
+/*
+Система Вступительные экзамены. Абитуриент регистрируется на Факультет, сдает Экзамены.
+Преподаватель выставляет Оценку. Система подсчитывает средний балл и определяет Абитуриентов,
+зачисленных в учебное заведение.
+*/
+
 public class App {
     public static void main(String[] args) {
         List<Abiturient> abiturients = Arrays.asList(

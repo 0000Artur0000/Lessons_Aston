@@ -7,6 +7,12 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
+/*
+Система Автобаза. Диспетчер распределяет заявки на Рейсы между Водителями и назначает для этого Автомобиль.
+Водитель может сделать заявку на ремонт. Диспетчер может отстранить Водителя от работы. Водитель делает
+отметку о выполнении Рейса и состоянии Автомобиля.
+*/
+
 public class App {
     public static void main(String[] args) {
         List<Driver> drivers = Arrays.asList(

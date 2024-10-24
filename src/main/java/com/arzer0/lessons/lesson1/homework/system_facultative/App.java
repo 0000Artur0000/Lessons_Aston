@@ -7,6 +7,12 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
+/*
+Система Факультатив. Преподаватель объявляет запись на Курс. Студент записывается на Курс,
+обучается и по окончании Преподаватель выставляет Оценку, которая сохраняется в Архиве.
+Студентов, Преподавателей и Курсов при обучении может быть несколько.
+*/
+
 public class App {
     public static void main(String[] args) {
         List<Teacher> teachers = Arrays.asList(

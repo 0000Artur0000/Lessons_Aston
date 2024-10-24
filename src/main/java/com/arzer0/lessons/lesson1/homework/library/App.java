@@ -9,6 +9,12 @@ import java.util.Date;
 import java.util.List;
 import java.util.Random;
 
+/*
+Система Библиотека. Читатель оформляет Заказ на Книгу. Система осуществляет поиск в Каталоге.
+Библиотекарь выдает Читателю Книгу на абонемент или в читальный зал. При невозвращении Книги
+Читателем он может быть занесен Администратором в “черный список”.
+*/
+
 public class App {
     public static void main(String[] args) {
         List<Reader> readers = Arrays.asList(
