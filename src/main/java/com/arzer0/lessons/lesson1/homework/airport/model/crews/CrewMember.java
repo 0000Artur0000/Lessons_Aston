@@ -1,4 +1,4 @@
-package com.arzer0.lessons.lesson1.homework.airport.model;
+package com.arzer0.lessons.lesson1.homework.airport.model.crews;
 
 public abstract class CrewMember {
     private final String name;

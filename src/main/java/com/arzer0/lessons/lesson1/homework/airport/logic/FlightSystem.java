@@ -1,6 +1,7 @@
 package com.arzer0.lessons.lesson1.homework.airport.logic;
 
 import com.arzer0.lessons.lesson1.homework.airport.model.*;
+import com.arzer0.lessons.lesson1.homework.airport.model.crews.CrewMember;
 
 
 import java.util.*;
@@ -28,6 +29,10 @@ public class FlightSystem {
         Flight flight = new Flight(plane, departure, destination, crew, admin);
         flights.add(flight);
         System.out.println("Администратор " + admin.getName() + " создал рейс " + flight.getFlightNumber() + ".");
+        System.out.println("Экипаж:");
+        for (CrewMember crewMember : crew) {
+            System.out.println(" "+ crewMember.getRole()+ " "+ crewMember.getName());
+        }
         return flight;
     }
 

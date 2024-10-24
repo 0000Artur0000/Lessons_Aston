@@ -1,5 +1,7 @@
 package com.arzer0.lessons.lesson1.homework.airport.model;
 
+import com.arzer0.lessons.lesson1.homework.airport.model.crews.CrewMember;
+
 import java.util.List;
 import java.util.Random;
 
