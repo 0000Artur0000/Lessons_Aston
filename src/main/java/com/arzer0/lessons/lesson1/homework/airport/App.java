@@ -37,7 +37,6 @@ public class App {
                 new Stewardess("Елена Алексеева")
         );
 
-
         Admin admin = FlightSystem.getRandomAdmin();
         Plane plane = FlightSystem.getRandomPlane();
         List<Airport> airports = FlightSystem.getRandomAirports();
