@@ -31,7 +31,7 @@ public class FlightSystem {
         System.out.println("Администратор " + admin.getName() + " создал рейс " + flight.getFlightNumber() + ".");
         System.out.println("Экипаж:");
         for (CrewMember crewMember : crew) {
-            System.out.println(" "+ crewMember.getRole()+ " "+ crewMember.getName());
+            System.out.println(" " + crewMember.getRole() + " " + crewMember.getName());
         }
         return flight;
     }
