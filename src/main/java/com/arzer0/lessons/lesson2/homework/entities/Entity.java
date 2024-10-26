@@ -44,10 +44,7 @@ public abstract class Entity implements Transformable {
         return killer;
     }
 
-    public int getHealth() {
-        return health;
-    }
-
+    @Override
     public Race getRace() {
         return race;
     }
@@ -63,7 +60,8 @@ public abstract class Entity implements Transformable {
 
     @Override
     public int rollInitiative() {
-        return new Random().nextInt(20) + 1 + (int) stealth;
+        double roll = new Random().nextInt(20) + 1 + stealth*10;
+        return (int) roll;
     }
 
     @Override
@@ -98,6 +96,5 @@ public abstract class Entity implements Transformable {
         return new Zombie(name, maxHealth, defense, critChance, dodgeChance, stealth, race);
 
     }
-
 
 }

@@ -8,9 +8,8 @@ public interface Mortal {
     void takeDamage(int damage, Attacker attacker);
     int rollInitiative();
     Faction getFaction();
-    int getHealth();
     String getName();
     Role getRole();
     Race getRace();
-
+    Attacker getKiller();
 }
