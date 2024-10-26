@@ -1,10 +1,12 @@
+package lessons.lesson1;
+
 import org.junit.jupiter.api.Test;
 
 public class AppTest {
 
     private void runTest(String testName, Runnable testMethod) {
         System.out.println("[INFO] -------------------------------------------------------");
-        System.out.println("[INFO]  " + testName + " TEST");
+        System.out.println("[INFO]  " + testName + " TEST Урок 1");
         System.out.println("[INFO] -------------------------------------------------------");
         testMethod.run();
     }
